@@ -27,8 +27,7 @@ WHERE Country = 'Germany' AND City = 'Berlin'
 
 -- "Komplexes Beispiel"
 SELECT * FROM Customers
-WHERE (City = 'Paris' OR City = 'Berlin') AND 
-(Country = 'Germany' OR Country = 'France')
+WHERE (City = 'Paris' OR City = 'Berlin') AND (Country = 'Germany' OR Country = 'France')
 
 SELECT * FROM Orders
 WHERE Freight >= 100 AND Freight <= 500

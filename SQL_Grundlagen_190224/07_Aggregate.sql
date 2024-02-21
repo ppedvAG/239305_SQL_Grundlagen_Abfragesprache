@@ -45,3 +45,8 @@ JOIN Orders ON Employees.EmployeeID = Orders.EmployeeID
 GROUP BY LastName
 ORDER BY Bestellungen DESC
 
+
+
+SELECT TOP 1 ShipCity, OrderID, CustomerID, MAX(Freight) as Fracht FROM Orders
+GROUP BY OrderID, CustomerID, ShipCity
+ORDER BY Fracht DESC

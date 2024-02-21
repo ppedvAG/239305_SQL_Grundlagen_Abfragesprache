@@ -38,9 +38,9 @@ WHERE LastName = 'King'
 
 
 -- Übung:
--- 1. Alle Produkte (ProductNames) aus den Kategorien "Beverages" und "Produce"
+-- 1. Alle Produkte (ProductNames) aus den Kategorien "Beverages" und "Produce" => WHERE benötigt
 -- (CategoryName in Categories)
---> Products - Categories Tabelle
+--> Products - Categories Tabelle => JOIN benötigt
 SELECT * FROM Products
 SELECT * FROM Categories
 
