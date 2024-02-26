@@ -1,7 +1,5 @@
 SQL Grundlagen Abfragesprache
 
-TAG 1:
-
 Teil 1:
 - Beschäftigung mit SELECT Abfragen (Custom SELECT Abfragen & Spalten Abfragen von Tabellen)
 - Spaltennamen oder Tabellennamen ändern mit dem Alias "as"
